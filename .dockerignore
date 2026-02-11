@@ -1,0 +1,10 @@
+# Ignorar archivos sensibles
+.env
+security/
+.git
+.idea/
+
+# Ignorar basura de compilación y logs
+logs/
+bin/
+vendor/

@@ -1,0 +1,10 @@
+{
+  "template_name": "templateName",
+  "to": "somebody@domain.com",
+  "from_name": "fromName",
+  "from_email": "from@domain.com",
+  "template_data": {
+    "name": "name",
+    "lastName": "lastName"
+  }
+}

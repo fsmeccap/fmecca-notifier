@@ -1,0 +1,12 @@
+{
+  "template_name": "FM-Biblioteca-CreatedUser",
+  "to": "fsmeccap@gmail.com",
+  "from_name": "Bibliotecuca !",
+  "from_email": "bibliotecuca@fmecca.com",
+  "template_data": {
+    "name": "Franco",
+    "lastName": "Mecca",
+    "dni": "12345678",
+    "email": "fsmeccap@gmail.com"
+  }
+}

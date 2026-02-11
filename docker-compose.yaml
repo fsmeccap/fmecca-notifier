@@ -1,0 +1,17 @@
+services:
+  notifier-worker:
+    build: .
+    container_name: fmecca-notifier-worker
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/root/logs
+      - ./security:/root/security
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

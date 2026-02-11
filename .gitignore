@@ -1,0 +1,27 @@
+# Configuración sensible
+.env
+.env.local
+
+# Binarios y ejecutables
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+__debug_bin
+
+# Logs
+logs/
+*.log
+
+# Dependencias (Go las maneja con go.mod)
+vendor/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+.idea
+
+# Security
+security/

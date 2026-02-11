@@ -1,0 +1,8 @@
+{
+  "TemplateName": "FM-Biblioteca-CreatedUser",
+  "TemplateContent": {
+    "Subject": "¡Hola {{name}}! Te hemos registrado exitosamente 😎",
+    "Html": "<html><body style='font-family: sans-serif; color: #333;'> <div style='max-width: 600px; margin: auto; border: 1px solid #eee; padding: 20px;'> <h1 style='color: #2c3e50;'>¡Bienvenido a la biblioteca!</h1> <p>Hola <strong>{{name}}</strong>,</p> <p>Tu usuario <strong>{{email}}</strong> ha sido creado exitosamente en nuestro sistema.</p> <div style='background-color: #f9f9f9; padding: 15px; border-radius: 8px;'> <p style='margin-top: 0;'><strong>Tus datos de acceso:</strong></p> <ul style='list-style: none; padding-left: 0;'> <li><strong>Usuario:</strong> {{email}}</li> <li><strong>Contraseña:</strong> Tu número de DNI registrado</li> </ul> <hr style='border: 0; border-top: 1px solid #ddd;'> <p style='margin-bottom: 0;'><strong>Información adicional:</strong><br> Nombre completo: {{name}} {{lastName}}<br> DNI: {{dni}}</p> </div> <p>Si no fuiste tú, acércate al módulo de informes de la biblioteca o escríbenos a <a href='mailto:biblioteca@biblio.com'>biblioteca@biblio.com</a> 💌</p> <p style='font-size: 0.9em; color: #7f8c8d;'>Gracias por confiar en <a href='https://fmecca.com'>fmecca.com</a></p> </div> </body></html>",
+    "Text": "Hola {{name}},\n\nBienvenido a la biblioteca. Tu usuario {{email}} ha sido creado exitosamente.\n\nTu contraseña es el numero de dni registrado.\n\nDatos:\nNombres: {{name}}\nApellidos: {{lastName}}\nDNI: {{dni}}\nCorreo: {{email}}\n\nSi no fuiste tú, acércate al módulo de informes o escribe a biblioteca@biblio.com 💌"
+  }
+}
